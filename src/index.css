@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.clip-polygon{
+  clip-path: polygon(7% 0%, 75% 0%, 80% 15%, 100% 15%, 100% 100%, 100% 75%, 93% 100%, 0% 100%, 0% 20%);
+}
