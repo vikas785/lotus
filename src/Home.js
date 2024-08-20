@@ -6,19 +6,19 @@ const Home = () => {
 
   const aboutArray = [
     {
-      imgPath: '/assets/About1.jpg',
+      imgPath: '/assets/About1.JPG',
       heading: 'About Us',
       subHeading: 'Quality',
       description: 'We create real estate spaces for those who value impeccable design, superior craftsmanship, and the finest appointments. Each and every one of our developments embodies the true definition of quality, from customized finishes and thoughtful floor plans to the elevated offerings or our premium amenities.',
     },
     {
-      imgPath: '/assets/About2.jpg',
+      imgPath: '/assets/About2.JPG',
       heading: 'About Us',
       subHeading: 'Luxury',
       description: 'True luxury is a matter of comfort. The Lotus standard is widely recognized as a unique value proposition allowing buyers to choose from a sophisticated selection of the finishes, design, and layouts to tailor homes to their individual tastes. Luxury extends beyond the tangibles to include views, flexible floor plans, and unrivaled amenities.',
     },
     {
-      imgPath: '/assets/About3.jpg',
+      imgPath: '/assets/About3.JPG',
       heading: 'About Us',
       subHeading: 'Efficiency',
       description: 'Efficiency comes from our commitment to working with talented professionals. We collaborate with world-renowned architects, designers and consultants. Our in-house teams oversee every aspect, from conception to completion, devoting the time, energy, and resources needed to deliver the finest products and services.',
@@ -218,7 +218,7 @@ const Home = () => {
               {footerRightLink.map(data=>{
                 return(
                   <div className='my-2'>
-                  <img src='/assets/icons/Arrowbullet.png'/>
+                  <img src='/assets/icons/ArrowBullet.png'/>
             <span className='ms-2' style={{fontSize: '20px'}}>{data}</span>
                   </div>
             
