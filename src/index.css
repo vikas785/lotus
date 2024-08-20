@@ -15,3 +15,17 @@ code {
 .clip-polygon{
   clip-path: polygon(7% 0%, 75% 0%, 80% 15%, 100% 15%, 100% 100%, 100% 75%, 93% 100%, 0% 100%, 0% 20%);
 }
+
+.lotus-text-grey{
+  color: #D9D9D9 !important;
+}
+
+.lotus-text-golden{
+  color: #D8953C;
+}
+
+.lotus-box{
+  border: 1px solid#D8953C;
+  clip-path: polygon(20px 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0 20px); 
+}
+
